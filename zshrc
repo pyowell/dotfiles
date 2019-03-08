@@ -25,6 +25,9 @@ autoload -Uz compinit && compinit
 source $HOME/dotfiles/zsh/prompt
 source $HOME/dotfiles/zsh/aliases
 
+#autojump
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
 
 # recommended by brew doctor
 export PATH="/usr/local/bin:$PATH"
